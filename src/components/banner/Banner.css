@@ -1,0 +1,117 @@
+.pa-banner-text {
+  background-color: #bcf7e6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.pa-banner-text h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #222222;
+}
+
+.pa-banner-text p {
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  color: #1f1616;
+}
+
+
+
+.pa-view-all {
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* banner */
+
+.pa-banner {
+  animation: fadeIn 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.pa-banner-text {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.pa-banner-text.show {
+  opacity: 1;
+  transform: translateY(0%);
+  max-width:  4000px;
+}
+
+.pa-banner {
+  padding: 100px 0px 50px;
+  background-image: url("../../assets/banner.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pa-banner-text h4 {
+  text-align: left;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  z-index: 1;
+  color: #1b1111;
+  letter-spacing: 1px;
+}
+.pa-banner-text h4:after {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 100px;
+  background: #6caaa8;
+  content: "";
+  bottom: -8px;
+  z-index: -1;
+}
+.pa-banner-text h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.pa-view-all {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+
+
+
+
+

@@ -1,0 +1,128 @@
+.sidebar-container {
+  background-color: #f5f5f5;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+
+.greeting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  
+}
+
+.img-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-top: 100px;
+  margin-left:100px;
+}
+
+.helo-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-left:100px;
+}
+
+.flname-text {
+  font-size: 16px;
+  color: #555;
+  margin-left:100px;
+  
+}
+.my-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* .links-container {
+  margin-top: 30px;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #e5e5e5;
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #e5e5e5;
+}
+
+.logout-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,49 @@
+.customer-form {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 40%;
+  margin-left: 37%;
+  background-color: white;
+}
+
+.customer-form__left,
+.customer-form__right {
+  flex: 1;
+}
+
+.customer-form__left label,
+.customer-form__right label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.customer-form__left input,
+.customer-form__right input {
+  display: flex;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+
+  background-color: white;
+}
+
+.customer-form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.customer-form__buttons button {
+  margin-left: 5px;
+}
+.profile-heading {
+  border-bottom: 1px solid #ccc; /* add an underline */
+  color: blue;
+  /* padding-bottom: 10px;  */
+}

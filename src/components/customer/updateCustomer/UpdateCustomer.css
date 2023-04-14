@@ -1,0 +1,110 @@
+
+.form-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 3px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 6% auto;
+  max-width: 400px;
+
+  height: 500px;
+  background-color: white;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.form-group.col-md-6:nth-of-type(1) label,
+.form-group.col-md-6:nth-of-type(2) label,
+.form-group.col-md-6:nth-of-type(3) label {
+  white-space: nowrap;
+}
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  /* Adjust grid layout for smaller screens */
+  .form-box {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  /* Adjust font size for smaller screens */
+  .form-group label {
+    font-size: 14px;
+  }
+
+  /* Adjust input padding for smaller screens */
+  .form-group input[type="text"] {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Further adjust grid layout for smaller screens */
+  .form-box {
+    margin: 10% auto;
+    padding: 20px;
+    height: auto;
+  }
+
+  /* Adjust font size for even smaller screens */
+  .form-group label {
+    font-size: 12px;
+  }
+
+  /* Adjust input padding for even smaller screens */
+  .form-group input[type="text"] {
+    padding: 6px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .form-box {
+    max-width: 300px;
+    margin: 8% auto;
+    padding: 20px;
+    height: auto;
+    margin-right: 30px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input[type="text"] {
+    padding: 8px;
+  }
+}
+
+/* New styles for the form box */
+.form-box {
+  margin-top: 20%;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}

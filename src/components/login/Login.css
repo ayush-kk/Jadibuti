@@ -1,0 +1,16 @@
+#grand-parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grand-parent-div {
+  margin-top: 5%;
+}
+
+#parent-div {
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}

@@ -1,0 +1,110 @@
+/* #imageMagnifier{
+    width: 500px;
+    height: 500px;
+} */
+
+
+.medicine-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .medicine-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .medicine-image {
+    width: 40%;
+    margin-right: 5%;
+  }
+  
+  .medicine-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .medicine-info {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+  }
+  
+  .medicine-info h2 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .medicine-info p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .medicine-info li {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-info label {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .btn-add {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f4c10f;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-add:hover {
+    transform: scale(1.1);
+    background-color: #e3ab0d;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .footer a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #f4c10f;
+  }
+  
